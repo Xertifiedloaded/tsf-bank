@@ -17,8 +17,5 @@ if(isActive==false){
 }
 // hide.classList.toggle("show") toggle on or off
  
-
-
-
 }
 hamburger.addEventListener("click",showMenu)

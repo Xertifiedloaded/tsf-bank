@@ -508,6 +508,37 @@ a {
 
 }
 
+@media screen and (max-width:900px) {
+
+    .nav {
+        width: 70%;
+    }
+
+    nav .nav-menu {
+        width: 100%;
+    }
+
+    .footer-flex {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+.footer-box{
+    width: 100%;
+}
+.social-menu{
+    justify-content: center;
+    padding-top:10px;
+}
+
+
+
+
+
+
+
+}
+
 @media screen and (max-width:600px) {
     .desktop {
         display: none;
@@ -638,7 +669,7 @@ a {
         z-index: 100;
         top: 100px;
         list-style: none;
-    
+
     }
 
     .nav-list {
@@ -658,18 +689,5 @@ a {
     .three {
         animation: none !important;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
