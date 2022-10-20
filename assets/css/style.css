@@ -344,7 +344,14 @@ a {
     /* transition: all 5s; */
     animation: chevron 2s ease-in-out;
 }
-
+.submit-cont{
+    display: flex;
+    justify-content: end;
+}
+.submit-btn{
+  
+    padding: 15px 30px;
+}
 @keyframes chevron {
     0% {
         transform: translateX(0);
@@ -412,7 +419,7 @@ a {
     display: block;
     margin-bottom: 20px;
     width: 100%;
-    padding: 15px 0;
+    padding: 15px 10px;
     border-radius: 5px;
     border: 1px solid #333;
     outline: none;
@@ -421,7 +428,6 @@ a {
 .form>.input::placeholder {
     font-size: 17px;
     text-transform: capitalize;
-
 }
 
 .form>.message {
@@ -661,9 +667,9 @@ a {
         height: 100vh;
         width: 100%;
         text-align: center;
-        background-color: red;
+        background-color: var(--btn-color-blue);
         margin-top: 10px;
-        clip-path: circle(100% at 90% -5%);
+        /* clip-path: circle(100% at 90% -5%); */
         transition: all 5s ease-in-out;
         position: fixed;
         z-index: 100;
